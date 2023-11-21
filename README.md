@@ -15,6 +15,7 @@ Docker version 24.0.5, build 24.0.5-0ubuntu1~20.04.1
 anurag@TPE14:~$ sudo chown $USER:$USER /var/run/docker.sock
 
 anurag@TPE14:~$ docker run hello-world
+
 Unable to find image 'hello-world:latest' locally
 
 latest: Pulling from library/hello-world
@@ -35,6 +36,7 @@ executable that produces the output you are currently reading.
 to your terminal.
 
 To try something more ambitious, you can run an Ubuntu container with:
+
 $ docker run -it ubuntu bash
 
 Share images, automate workflows, and more with a free Docker ID:
@@ -44,7 +46,9 @@ For more examples and ideas, visit:
 https://docs.docker.com/get-started/
 
 anurag@TPE14:~$ 
+
 anurag@TPE14:~$ docker run -it ubuntu bash
+
 Unable to find image 'ubuntu:latest' locally
 latest: Pulling from library/ubuntu
 aece8493d397: Pull complete 
