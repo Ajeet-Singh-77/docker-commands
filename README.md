@@ -9,6 +9,7 @@ docker: permission denied while trying to connect to the Docker daemon socket at
 See 'docker run --help'.
 
 anurag@TPE14:~$ docker --version
+
 Docker version 24.0.5, build 24.0.5-0ubuntu1~20.04.1
 
 anurag@TPE14:~$ sudo chown $USER:$USER /var/run/docker.sock
