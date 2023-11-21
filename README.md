@@ -1,6 +1,7 @@
 Repository for learning Docker and debugging encountered problems.
 
 anurag@TPE14:~$ sudo apt update
+
 anurag@TPE14:~$ sudo apt install docker.io -y
 
 anurag@TPE14:~$ docker run hello-world
